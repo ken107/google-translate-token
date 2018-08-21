@@ -91,6 +91,7 @@ function updateTKK() {
                     }
                     /* eslint-enable no-undef */
                 }
+                else throw new Error("Google has changed the algorithm");
 
                 /**
                  * Note: If the regex or the eval fail, there is no need to worry. The server will accept
