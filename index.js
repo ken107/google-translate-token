@@ -5,7 +5,8 @@
  * Everything between 'BEGIN' and 'END' was copied from the url above.
  */
 
-var { got, Configstore } = require('./deps.js');
+var got = require('./deps.js').got;
+var Configstore = require('./deps.js').Configstore;
 
 /* eslint-disable */
 // BEGIN
